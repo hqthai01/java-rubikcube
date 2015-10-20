@@ -1,0 +1,48 @@
+        3 3 3 
+        3 3 3 
+        3 3 3 
+1 1 1   0 0 0   2 2 2   5 5 5 
+1 1 1   0 0 0   2 2 2   5 5 5 
+1 1 1   0 0 0   2 2 2   5 5 5 
+        4 4 4 
+        4 4 4 
+        4 4 4 
+
+Bottom white, front blue;
+List edge layer 1, 3:
+	+ Bottom
+		+ front: 	4-0, WHITE-BLUE
+		+ left: 	4-1, WHITE-MAGENTA
+		+ right: 	4-2, WHITE-RED
+		+ back: 	4-5, WHITE-GREEN
+	+ Front
+		+ front: 	3-0, YELLOW-BLUE
+		+ left: 	3-1, YELLOW-MAGENTA
+		+ right: 	3-2, YELLOW-RED
+		+ back: 	3-5, YELLOW-GREEN
+List edge layer 2:
+	+ front:
+		+ right: 	0-2, BLUE-RED
+		+ left : 	0-1, BLUE-MAGENTA
+	+ left:
+		+ front: 	1-0, MAGENTA-BLUE
+		+ back: 	1-5, MAGENTA-GREEN
+	+ back:
+		+ left: 	5-1, GREEN-MAGENTA
+		+ right: 	5-2, GREEN-RED
+	+ right:
+		+ front: 	2-0, RED-BLUE
+		+ back: 	2-5, RED-GREEN
+
+List corner layer 1, 3:	
+	+ Bottom
+		+ up-front-left: 	3-0-1, YELLOW-BLUE-MAGENTA
+		+ up-front-right:	3-0-2, YELLOW-BLUE-RED
+		+ up-back-left:		3-5-1, YELLOW-GREEN-MAGENTA
+		+ up-back-right:	3-5-2, YELLOW-GREEN-RED
+	+ Up
+		+ up-front-left: 	3-0-1, YELLOW-BLUE-MAGENTA
+		+ up-front-right:	3-0-2, YELLOW-BLUE-RED
+		+ up-back-left:		3-5-1, YELLOW-GREEN-MAGENTA
+		+ up-back-right:	3-5-2, YELLOW-GREEN-RED
+	
